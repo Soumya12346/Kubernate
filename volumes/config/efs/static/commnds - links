@@ -48,3 +48,8 @@ Commands for working with resources in a specific namespace:
 1. kubectl get resourcequota -n namespace-name
 2. kubectl get deployment -n namespace-name
 3. kubectl get pod -n namespace-name
+
+
+eks -cluster setup llink:https://medium.com/@sanoj.sudo/how-to-create-aws-eks-cluster-step-by-step-a97420ede922
+https://github.com/kubernetes-sigs/aws-ebs-csi-driver/blob/master/examples/kubernetes/dynamic-provisioning/manifests/pod.yaml
+https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html
