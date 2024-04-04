@@ -9,12 +9,12 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: sudha
+      app: soumya
   template:
     metadata:
       name: jenkins
       labels:
-        app: sudha
+        app: soumya
     spec:
       containers:
         - name: myjenkins
